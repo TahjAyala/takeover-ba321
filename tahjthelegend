@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tahj Ayala | Official Site</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #0a0a0a;
+      color: #fff;
+      overflow-x: hidden;
+    }
+    header {
+      padding: 3rem 1rem;
+      text-align: center;
+      background: linear-gradient(135deg, #e91e63, #673ab7);
+      animation: fadeInDown 1s ease-out;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    .album-banner {
+      text-align: center;
+      background-color: #1e1e1e;
+      padding: 1rem;
+      font-weight: bold;
+      font-size: 1.1rem;
+      animation: slideIn 1.5s ease-out;
+    }
+    section {
+      padding: 2rem 1rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    .bio {
+      margin-bottom: 2rem;
+      line-height: 1.6;
+      animation: fadeIn 1.2s ease-out;
+    }
+    .quote {
+      font-style: italic;
+      color: #e0e0e0;
+      margin: 1rem 0;
+      border-left: 4px solid #e91e63;
+      padding-left: 1rem;
+    }
+    .tracks {
+      margin: 2rem 0;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    .track {
+      margin-bottom: 1.5rem;
+    }
+    .track iframe {
+      width: 100%;
+      height: 120px;
+      border: none;
+    }
+    .links {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-bottom: 3rem;
+      animation: fadeInUp 1s ease-out;
+    }
+    .links a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 1.2rem;
+    }
+    .signup {
+      text-align: center;
+      margin-top: 2rem;
+      animation: fadeInUp 1.5s ease-out;
+    }
+    .signup input[type="email"] {
+      padding: 0.8rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 5px;
+      width: 60%;
+      max-width: 300px;
+    }
+    .signup button {
+      padding: 0.8rem 1.2rem;
+      font-size: 1rem;
+      margin-left: 1rem;
+      background: #e91e63;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .message {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 1.1rem;
+      color: #e0e0e0;
+    }
+    .tour-hint {
+      margin-top: 2rem;
+      text-align: center;
+      font-size: 1.1rem;
+      font-style: italic;
+      color: #f06292;
+      animation: fadeIn 2s ease-out;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateX(-100%); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tahj Ayala</h1>
+    <p>Official Music Site</p>
+  </header>
+
+  <div class="album-banner">🔥 Upcoming Album: "Our Takeover" – Drops July 4, 2025 🔥</div>
+
+  <section>
+    <div class="bio">
+      <p class="quote">“I make music for the people who feel too much and say too little. Every track is a piece of my heart, raw and real.”</p>
+      <p>
+        Tahj Ayala is a singer-songwriter known for blending vulnerability, rhythm, and raw storytelling into every track. With influences ranging from reggaeton to pop, his sound hits hard and stays with you. Whether you’re dancing or healing, there’s a song for you here.
+      </p>
+    </div>
+
+    <div class="tracks">
+      <div class="track">
+        <iframe allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/tahjthelegend/ive-closed-that-door&color=%23e91e63&auto_play=true"></iframe>
+      </div>
+      <div class="track">
+        <iframe allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/tahjthelegend/my-sanctuary-1&color=%23e91e63"></iframe>
+      </div>
+      <div class="track">
+        <iframe allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/tahjthelegend/show-you-the-door&color=%23e91e63"></iframe>
+      </div>
+      <div class="track">
+        <iframe allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/tahjthelegend/frontline-of-my-war-8&color=%23e91e63"></iframe>
+      </div>
+    </div>
+
+    <div class="links">
+      <a href="https://soundcloud.com/tahjthelegend" target="_blank">SoundCloud</a>
+      <a href="https://open.spotify.com/artist/6roI1qaaj57fgJStO9zXJJ?si=6c3W1GknQOWPp734OAuRzQ" target="_blank">Spotify</a>
+      <a href="https://music.apple.com/us/artist/tahj-ayala/1786185745" target="_blank">Apple Music</a>
+    </div>
+
+    <div class="signup">
+      <h3>Join the Fan Club</h3>
+      <form name="fan-club" method="POST" data-netlify="true">
+        <input type="email" name="email" placeholder="Your email" required />
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+
+    <div class="message">
+      <p>🎉 Download the albums and make some noise! Let our sound be shared with the world and bring back the good old days—when we could party and have fun with no worry, no stress, just dancing and happiness. 🎶✨</p>
+    </div>
+
+    <div class="tour-hint">
+      🌪️ The tour is in the works! You can count on us hitting the West Coast and Midwest for sure. Want Tahj in your city? Let us know! Tag, shout, and spread the word—we're coming in hot. 💥🚌🎤
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Tahj Ayala. All rights reserved.
+  </footer>
+</body>
+</html>
